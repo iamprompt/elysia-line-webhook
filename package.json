@@ -33,6 +33,9 @@
   "main": "./dist/cjs/index.js",
   "module": "./dist/index.mjs",
   "types": "./dist/index.d.ts",
+  "files": [
+    "dist/**"
+  ],
   "scripts": {
     "build": "bun build.ts",
     "dev": "bun run --watch example/index.ts",
